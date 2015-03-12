@@ -5,68 +5,54 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-           #test {
-                position: fixed;
-                right:0;
-                top:0;
-                height: 100%;
-                width:0;
-                background-color:lightgrey;
-               
-                border: 1px solid red;
-                 -webkit-transition: width 1s, height 4s; /* Safari */
-                  transition: width 1s, height 0s;
-                
-                }
-           
-            #test:hover
-            {
-                width: 200px;
-            }
-            
-            #test:target
-            {
-                width: 200px;
-            }
-            h2 {
-    position: relative;
-    display: inline-block;
+#test {
+position: fixed;
+right:0;
+top:0;
+height: 100%;
+width:0;
+background-color:lightgrey;
+
+border: 1px solid red;
+ -webkit-transition: width 1s, height 4s; /* Safari */
+  transition: width 1s, height 0s;
+
 }
 
-.untarget {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
-}
+ #test:hover
+ {
+     width: 200px;
+ }
 
-:target .untarget {
-    display: block;
+ #test:target
+ {
+     width: 200px;
+ }
+
+            
+
+div ul
+{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
 }
-            
-            
-           
-            
-            
-            div ul
-            {
-                width: 60%;
-                margin-left: auto;
-                margin-right: auto;
-                border: 1px solid red;
-                text-decoration: none;
-                list-style: none;
-                text-align: center;
-            }
                 
         </style>
     </head>
     <body>
-        <h2>
-        <a href="#test">TEST</a>
-        <a href="#" class="untarget"></a>
-        </h2>
+        <div id="navbutton">
+            <span id="opennav">
+                <a href="#test" onclick="toggle_visibility('opennav');">Open</a>
+            </span>
+            <span id="closenav">
+                   <a href="#" onclick="toggle_visibility('opennav');">Close</a>
+            </span>
+        </div>
         <div id="test">
             <ul>
                 <li>Home</li>
