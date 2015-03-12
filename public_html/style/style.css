@@ -10,6 +10,7 @@ body
     border: 1px solid red;
     width: 100%;
     height: 5em;
+
 }
 
 #center-top-wrapper
@@ -29,15 +30,6 @@ header
     text-align:center;
 }
 
-#navbutton
-{
-    text-align: center;
-    float: right;
-    border: 1px solid black;
-    margin-top: 1em;
-    width: 4em;
-    margin-right: 1em;
-}
 
 #main-wrapper
 {
@@ -99,7 +91,7 @@ border: 1px solid red;
 
  #navigation:target
  {
-     width: 200px;
+     width: 20%;
  }
 
  #opennav
@@ -110,4 +102,21 @@ border: 1px solid red;
  #closenav
  {
      display:none;
+ }
+ 
+ #navbutton
+{
+    text-align: center;
+    float: right;
+    border: 1px solid black;
+    margin-top: 1em;
+    width: 2em;
+    margin-right: 1em;
+}
+
+ 
+ #navbutton img
+ {
+     height: 2em;
+     width: 2em;
  }
