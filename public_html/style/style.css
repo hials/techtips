@@ -78,14 +78,36 @@ footer
     display:none;
 }
 
-nav
-{
-    position: fixed;
-    z-index: 10;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 19.8%;
-    border: 3px solid red;
+#navigation {
+position: fixed;
+right:0;
+top:0;
+height: 100%;
+width:0;
+background-color:lightgrey;
+
+border: 1px solid red;
+ -webkit-transition: width 1s, height 4s; /* Safari */
+  transition: width 1s, height 0s;
+
 }
 
+ #navigation:hover
+ {
+     width: 200px;
+ }
+
+ #navigation:target
+ {
+     width: 200px;
+ }
+
+ #opennav
+ {
+     display: block;
+ }
+ 
+ #closenav
+ {
+     display:none;
+ }

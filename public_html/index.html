@@ -17,9 +17,14 @@
                 <header>
                     <h1>LOGO!</h1>
                 </header>
-                <div id="navbutton">
-                    <a href="#" onclick="toggle_visibility('nav-wrapper');">MENU</a>
-                </div>
+                  <div id="navbutton">
+                        <span id="opennav">
+                            <a href="#navigation" onclick="toggle_visibilitydual('opennav','closenav');">Open</a>
+                        </span>
+                        <span id="closenav">
+                               <a href="#" onclick="toggle_visibilitydual('closenav','opennav');">Close</a>
+                        </span>
+                    </div>
             </div>
         
         </div>
@@ -31,11 +36,26 @@
                 <p>aside</p>
             </aside>    
         </div>
-        <div id="nav-wrapper">
+  
+        
+        
+        <div id="navigation">
             <nav>
-                <h2>NAVIGATION</h2>
-            </nav>
-        </div>    
+                <ul>
+                    <li>Home</li>
+                    <li>Example 1</li>
+                    <li>Example 2</li>
+                    <li>Example 3</li>
+                    <li>Example 4</li>
+                    <li>Example 5</li>
+                    <li>Example 6</li>
+                    <li>Example 7</li>
+                </ul>
+            </nav>    
+        </div>
+        
+        
+        
         
         <footer>
             <h2>Føtter</h2>
