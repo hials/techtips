@@ -4,6 +4,7 @@
         <title>Bar test</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <script src="mobilenavigation.js"></script>
         <style>
 #test {
 position: fixed;
@@ -29,6 +30,15 @@ border: 1px solid red;
      width: 200px;
  }
 
+ #opennav
+ {
+     display: block;
+ }
+ 
+ #closenav
+ {
+     display:none;
+ }
             
 
 div ul
@@ -47,10 +57,10 @@ div ul
     <body>
         <div id="navbutton">
             <span id="opennav">
-                <a href="#test" onclick="toggle_visibility('opennav');">Open</a>
+                <a href="#test" onclick="toggle_visibilitydual('opennav','closenav');">Open</a>
             </span>
             <span id="closenav">
-                   <a href="#" onclick="toggle_visibility('opennav');">Close</a>
+                   <a href="#" onclick="toggle_visibilitydual('closenav','opennav');">Close</a>
             </span>
         </div>
         <div id="test">
