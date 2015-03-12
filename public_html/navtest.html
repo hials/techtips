@@ -9,8 +9,89 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+          div ul
+            {
+                width: 60%;
+                margin-left: auto;
+                margin-right: auto;
+                border: 1px solid red;
+                text-decoration: none;
+                list-style: none;
+                text-align: center;
+            }
+            
+            
+            #test {
+                position: fixed;
+                right:0;
+                top:0;
+                height: 100%;
+                width:0;
+                background-color:lightgrey;
+               
+                border: 1px solid red;
+                 -webkit-transition: width 1s, height 4s; /* Safari */
+                  transition: width 1s, height 0s;
+                
+                }
+           
+            #test:hover
+            {
+                width: 200px;
+            }
+            
+            #test:target
+            {
+                width: 200px;
+            }
+            h2 {
+    position: relative;
+    display: inline-block;
+}
+
+.untarget {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+:target .untarget {
+    display: block;
+}
+            
+            
+            
+        </style>
+        
+        
     </head>
     <body>
-        <div>TODO write content</div>
+        <div id="test">
+    <h2>
+        <a href="#test">Open me</a>
+        <a href="#" class="untarget"></a>
+    </h2>
+
+</div>
+        
+        
+                <div class="test">
+            <ul>
+                <li>Home</li>
+                <li>Example 1</li>
+                <li>Example 2</li>
+                <li>Example 3</li>
+                <li>Example 4</li>
+                <li>Example 5</li>
+                <li>Example 6</li>
+                <li>Example 7</li>
+            </ul>
+        
+        
+        </div>
     </body>
 </html>
