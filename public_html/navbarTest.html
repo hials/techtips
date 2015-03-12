@@ -19,20 +19,16 @@
                 
                 }
            
+            #test:hover
+            {
+                width: 200px;
+            }
             
             #test:target
             {
                 width: 200px;
-            height: 100%;
-            color: black;
             }
             
-            #test:hover
-            {
-                width: 200px;
-            height: 100%;
-            color: black;
-            }
             
             
            
@@ -52,7 +48,10 @@
         </style>
     </head>
     <body>
+        <h2>
         <a href="#test">TEST</a>
+        <a href="#" class="untarget"></a>
+        </h2>
         <div id="test">
             <ul>
                 <li>Home</li>
