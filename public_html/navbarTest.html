@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bar test</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+           #test {
+                position: fixed;
+                right:0;
+                top:0;
+                height: 100%;
+                width:0;
+                background-color:blue;
+                color: white;
+               
+                border: 1px solid red;
+                 -webkit-transition: width 2s, height 4s; /* Safari */
+                  transition: width 2s, height 0s;
+                
+                }
+           
+            
+            #test:target
+            {
+                width: 200px;
+            height: 100%;
+            color: black;
+            }
+            
+            #test:after
+            {
+                width: 100px;
+            }
+           
+            
+            
+            div ul
+            {
+                width: 60%;
+                margin-left: auto;
+                margin-right: auto;
+                border: 1px solid red;
+                text-decoration: none;
+                list-style: none;
+                text-align: center;
+            }
+                
+        </style>
+    </head>
+    <body>
+        <a href="#test">TEST</a>
+        <div id="test">
+            <ul>
+                <li>Home</li>
+                <li>Example 1</li>
+                <li>Example 2</li>
+                <li>Example 3</li>
+                <li>Example 4</li>
+                <li>Example 5</li>
+                <li>Example 6</li>
+                <li>Example 7</li>
+            </ul>
+        
+        
+        </div>
+    </body>
+</html>
