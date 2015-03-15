@@ -3,6 +3,14 @@ body
 {
     margin:0;
     padding:0;
+    
+}
+
+body ul,li
+{
+    margin:0;
+    padding:0;
+    list-style: none;
 }
 
 #top-wrapper
@@ -160,6 +168,75 @@ border: 1px solid red;
  }
  
  
+ 
+ .previewone
+ {
+     
+     width: 100%;
+     min-height: 20px;
+     border: 1px solid red;
+     overflow: hidden;
+     margin-top: 1em;
+     margin-bottom: 1em;
+ }
+ 
+ .previewone ul
+ {
+     
+ }
+  .previewone li
+ {
+     padding: 7em 0;
+      width: 100%;
+      text-align: center;
+}
+ 
+ .previewtwo
+ {
+     width: 100%;
+     min-height: 20px;
+     border: 1px solid blue;
+     overflow: hidden;
+     margin-bottom: 1em;
+ }
+ 
+  .previewtwo ul
+ {
+     
+ }
+  .previewtwo li
+ {
+     border: 1px solid blue;
+      float: left;
+      padding: 7em 0;
+      width: 49.7%;
+      text-align: center;
+}
+
+ .previewthree
+ {
+     margin-bottom: 1em;
+     width: 100%;
+     min-height: 20px;
+     border: 1px solid yellow;
+     overflow: hidden;
+ }
+ 
+  .previewthree ul
+ {
+     
+ }
+  .previewthree li
+ {
+      float: left;
+      padding: 7em 0;
+      width: 33%;
+      text-align: center;
+      border: 1px solid red;
+}
+ 
+ 
+ 
  @media only screen and (max-width: 1024px){
      
      body
@@ -167,5 +244,18 @@ border: 1px solid red;
          background-color: red;
      }
      
+     #center-top-wrapper
+    {
+    width: 100%;
+    }
+     
+    #main-wrapper
+{
+    width: 100%;
+    border: 1px solid red;
+    margin:0;
+    height: 800px;
+    clear: both;
+}
      
  }
