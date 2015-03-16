@@ -51,10 +51,12 @@ header
 
 main
 {
+    clear: both;
     width: 75%;
     border: 1px solid blue;
     min-height: 100%;
     float:left;
+    margin-bottom: 1em;
 }
 
 aside
