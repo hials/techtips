@@ -3,6 +3,7 @@ body
 {
     margin:0;
     padding:0;
+    background-color: #cccccc;
     
 }
 
@@ -36,6 +37,7 @@ header
     border: 1px solid black;
     width: 20em;
     text-align:center;
+    background-color: black;
 }
 
 
@@ -73,11 +75,40 @@ footer
     width: 100%;
     border: 1px solid blue;
     text-align: center;
+    background-color: black;
+}
+
+#centerfooter
+{
+    border: 1px solid black;
+    width: 40%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#centerfooter ul
+{
+    float: left;
+    margin-left: 12%;
+    color:white;
+}
+
+#centerfooter li
+{
+    margin-bottom: 0.2em;
+}
+
+.firstlist
+{
+    font-size: 1.2em;
+    color: #cccccc;
 }
 
 #nav-wrapper
 {
     display:none;
+    background-color: black;
 }
 
 #navigation {
