@@ -58,7 +58,7 @@ main
     border: 1px solid blue;
     min-height: 100%;
     float:left;
-    margin-bottom: 1em;
+ 
 }
 
 aside
@@ -67,15 +67,17 @@ aside
     min-height: 100%;
     float:right;
     border: 1px solid black;
+
 }
 
 
 footer
 {
     width: 100%;
-    
+    margin-top: 1em;
     text-align: center;
     background-color: #1A1A1A;
+    overflow:hidden;
 }
 
 #centerfooter
