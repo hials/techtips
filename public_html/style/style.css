@@ -39,6 +39,10 @@ header
     color: white;
     text-align:center;
 }
+h4
+{
+    text-align: center;
+}
 
 
 #main-wrapper
@@ -268,6 +272,10 @@ border-left:5px solid black;
       text-align: center;
       border: 1px solid red;
 }
+ .Articlepictures
+ {  
+    float: bottom;
+ }   
  
  
  
@@ -290,6 +298,4 @@ border-left:5px solid black;
     margin:0;
     height: 800px;
     clear: both;
-}
-     
- }
+}   
