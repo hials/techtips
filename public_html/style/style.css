@@ -6,6 +6,10 @@ body
     background-color: #bababa;    
 }
 
+article
+{
+    text-align: left;
+}
 body ul,li
 {
     margin:0;
@@ -66,8 +70,7 @@ h4
 main
 {
     clear: both;
-    width: 75%;
-    
+    width: 75%;   
     min-height: 100%;
     float:left;
  
@@ -80,7 +83,6 @@ aside
     float:right;
     border-left: 1px solid black;
     
-
 }
 
 
@@ -275,11 +277,26 @@ transition: width 1s, height 0s;
       text-align: center;
      
 }
- .Articlepictures
+ #Articlepictures
  {  
-    float: bottom;
- }   
+    float: top;
+    margin: 1em;
+    border: 1px solid black;
+    max-width: 35%;
+ }  
  
+ .Articlepreview
+ {
+     
+     width: 90%;
+     min-height: 20px;
+     
+     
+     margin: 5%;
+     border: 1px solid red;
+     display: box;
+     overflow-y: scroll;
+ }
  
  
  @media screen and (max-width: 1024px){
