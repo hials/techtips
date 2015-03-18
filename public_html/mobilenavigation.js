@@ -15,8 +15,8 @@
   }   
   
   function showmenuopen() {
-       var e = document.getElementById(opennav);
-       var f = document.getElementById(closenav);
+       var e = document.getElementById('opennav');
+       var f = document.getElementById('closenav');
        if(e.style.display == 'none')
           e.style.display = 'block';
           f.style.display = 'none';
