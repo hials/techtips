@@ -18,6 +18,17 @@ body ul,li
     list-style: none;
 }
 
+body a
+{
+    text-decoration: none;
+}
+
+body a:visited,a:link 
+{
+    color:inherit;
+}
+
+
 #top-wrapper
 {
    
@@ -138,13 +149,16 @@ footer
 position: absolute;
 right:0;
 top:0;
-background-color:#bababa; 
+background-color: #1A1A1A;
 width:0;
+color: white;
+height: 100%;
 
 -webkit-transition: width 1s, height 4s; /* Safari */
 transition: width 1s, height 0s;
-
+overflow:hidden;
 }
+
 
  #navigation:target
  {
@@ -168,9 +182,27 @@ transition: width 1s, height 0s;
     
      overflow:hidden;
      text-align: center;
-     padding: 5% 0em;
+     
+     
      
  }
+ 
+ #navigation li a
+{
+    width: 100%;
+    display:block;
+    padding:2em 0 2em 0;
+    vertical-align: middle;
+    
+}
+
+
+#navigation a:hover
+{
+    background-color: black;
+    
+    
+}
  
  
  
