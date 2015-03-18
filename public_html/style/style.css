@@ -40,17 +40,22 @@ body ul,li
 
 header
 {
-    background-image: url(../image/techtips.jpg);
+    background-image: url(../image/logo_desktop.png);
     background-size: 20em 7em;
     background-repeat: no-repeat;
     float: left;
-    
     height: 100%;
     width: 20em;
     color: white;
     text-align:center;
-    
 }
+
+header a
+{
+    height: 7em;
+    width: 20em;
+}
+
 h4
 {
     text-align: center;
