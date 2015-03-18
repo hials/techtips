@@ -73,10 +73,7 @@ h4
 main
 {
     clear: both;
-<<<<<<< HEAD
-    width: 75%;   
-=======
->>>>>>> origin/master
+    width: 75%; 
     min-height: 100%;
     float:left;
     border-right: 1px solid black;
