@@ -68,7 +68,6 @@ main
 {
     clear: both;
     width: 75%;
-    
     min-height: 100%;
     float:left;
  
@@ -88,7 +87,7 @@ aside
 footer
 {
     width: 100%;
-    margin-top: 1em;
+    
     text-align: center;
     background-color: #1A1A1A;
     overflow:hidden;
@@ -105,13 +104,14 @@ footer
 #centerfooter ul
 {
     float: left;
-    margin-left: 12%;
+    margin-left: 10%;
     color:white;
 }
 
 #centerfooter li
 {
     margin-bottom: 0.2em;
+    
 }
 
 .firstlist
