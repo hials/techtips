@@ -7,9 +7,18 @@
     }    
     
     
-     function toggle_visibilitydual(id,id2) {
+  function toggle_visibilitydual(id,id2) {
        var e = document.getElementById(id);
        var f = document.getElementById(id2);
        e.style.display = 'none';
        f.style.display = 'block';
+  }   
+  
+  function showmenuopen() {
+       var e = document.getElementById(opennav);
+       var f = document.getElementById(closenav);
+       if(e.style.display == 'none')
+          e.style.display = 'block';
+          f.style.display = 'none';
+       
     }    
