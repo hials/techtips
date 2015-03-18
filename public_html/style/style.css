@@ -53,7 +53,7 @@ header a
     width: 20em;
 }
 
-h4
+h3
 {
     text-align: center;
 }
@@ -316,8 +316,7 @@ transition: width 1s, height 0s;
      
      margin: 5%;
      border: 1px solid red;
-     display: box;
-     overflow-y: scroll;
+
  }
  
  
