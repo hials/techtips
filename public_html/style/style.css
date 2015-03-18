@@ -171,6 +171,20 @@ transition: width 1s, height 0s;
      display: block;
  }
  
+  #opennav img:hover
+ {
+     border-radius:2em;
+      box-shadow: 0px 0px 6px #00ff00;
+ }
+ 
+  #closenav img
+ {
+     border-radius:2em;
+      box-shadow: 0px 0px 6px #ff0000;
+ }
+ 
+ 
+ 
  #closenav
  {
      display:none;
@@ -185,6 +199,7 @@ transition: width 1s, height 0s;
     width: 4em;
     height: 4em;
 }
+
 
  
  #navbutton img
