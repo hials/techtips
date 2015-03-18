@@ -43,6 +43,7 @@ header
 
 header a
 {
+    display:block;
     height: 7em;
     width: 20em;
 }
