@@ -3,7 +3,8 @@ body
 {
     margin:0;
     padding:0;
-    background-color: #bababa;    
+    background-color: #bababa;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 article
@@ -64,17 +65,22 @@ h4
     background-color: white;
     margin-left: auto;
     margin-right: auto;
-    height: 800px;
+    min-height: 800px;
     clear: both;
+    overflow: hidden;
 }
 
 main
 {
     clear: both;
+<<<<<<< HEAD
     width: 75%;   
+=======
+    width: 75%; 
+>>>>>>> origin/master
     min-height: 100%;
     float:left;
- 
+    border-right: 1px solid black;
 }
 
 aside
@@ -82,7 +88,7 @@ aside
     width: 24%;
     min-height: 100%;
     float:right;
-    border-left: 1px solid black;
+    
     
 }
 
@@ -136,7 +142,7 @@ top:0;
 height: 100%;
 width:0;
 background-color:lightgrey;
-border-left:5px solid black;
+
 -webkit-transition: width 1s, height 4s; /* Safari */
 transition: width 1s, height 0s;
 
@@ -216,7 +222,8 @@ transition: width 1s, height 0s;
  #topnav
  {
      color: white;
-     border: 1px solid black;
+     margin:0;
+     padding:0;
      height: 7em;
      width: 100%;
      background-color: #1A1A1A;
@@ -225,7 +232,8 @@ transition: width 1s, height 0s;
  #topnav h2
  {
      text-align: center;
-     
+     margin:0;
+     padding:0;
  }
  
  
@@ -337,5 +345,16 @@ transition: width 1s, height 0s;
     height: 800px;
     clear: both;
 }   
+    
+   
+
+
+ #topnav
+ {
+     
+     z-index: -1;
+ }
+
+
 
  }
