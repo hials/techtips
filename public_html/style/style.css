@@ -4,7 +4,7 @@ body
     margin:0;
     padding:0;
     background-color: #bababa;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    "Lucida Sans Unicode", "Lucida Grande", sans-serif
 }
 
 article
@@ -53,11 +53,14 @@ header a
     width: 20em;
 }
 
-h3
+h2
 {
     text-align: center;
 }
-
+h3
+{
+    
+}
 
 #main-wrapper
 {
@@ -298,21 +301,25 @@ transition: width 1s, height 0s;
  #Articlepictures
  {  
     float: top;
-    margin: 1em;
+    margin-left: 1em;
     border: 1px solid black;
-    max-width: 35%;
+    max-width: 50%;
  }  
  
  .Articlepreview
  {
-     
      width: 90%;
      min-height: 20px;
-     
-     
      margin: 5%;
      border: 1px solid red;
-
+     overflow: auto;
+ }
+ 
+ .Subpictures
+ {
+    border: 1px solid blue;
+    min-width: 60%;
+    min-height: 10%;
  }
  
  
