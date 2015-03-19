@@ -332,38 +332,41 @@ transition: width 1s, height 0s;
       text-align: center;
      
 }
- #Articlepictures
+ #articlepictures
  {  
-    
     margin: 5%;
-    
     max-width: 90%;
     padding: 25px;
     margin-left: 32%;
-    
  }  
- #Articleintro h1
+ #articleintro h1
  {
      text-align: center;
  }
  
- .Articlepreview
+ .articlepreview
  {
      width: 90%;
      min-height: 20px;
      margin: 5%;
-     border: 1px solid red;
      overflow: auto;
  }
  
- .Subpictures ul li
+ .subpictures ul li
  {
-    border: 1px solid blue;
     min-width: 60%;
     min-height: 10%;
-    margin-bottom: 5%;
  }
  
+ .subpictures ul li img
+ {
+     box-shadow: 2px 2px black;
+ }
+ 
+ .subpictures h4
+ {
+     margin-top: 10%;
+ }
 
  
  
