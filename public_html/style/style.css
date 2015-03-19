@@ -334,11 +334,11 @@ transition: width 1s, height 0s;
 }
  #articlepictures
  {  
+    text-align: center;
     margin: 5%;
     max-width: 90%;
     padding: 25px;
-    margin-left: 32%;
- }  
+     }  
  #articleintro h1
  {
      text-align: center;
@@ -354,6 +354,7 @@ transition: width 1s, height 0s;
  
  .subpictures ul li
  {
+    text-align: center;
     min-width: 60%;
     min-height: 10%;
  }
