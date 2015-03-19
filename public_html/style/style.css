@@ -364,10 +364,28 @@ transition: width 1s, height 0s;
     margin-bottom: 5%;
  }
  
+
+ 
  
  /* TEMP TEST FOR IMAGE PREVIEW*/
  
+ .overlay
+ {
+     position: fixed;
+     height: 100%;
+     width: 100%;
+     background-color: black;
+     top:0;
+     left:0;
+     padding-top: 20em;
+     opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+ }
  
+ .overlay #bigimage
+ {
+     
+ }  
  
  
  
