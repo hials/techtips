@@ -334,11 +334,15 @@ transition: width 1s, height 0s;
 }
  #Articlepictures
  {  
-    float: top;
-    margin-left: 1em;
+    
+    margin: 5%;
     border: 1px solid black;
-    max-width: 50%;
+    width: 90%;
  }  
+ #Articleintro h1
+ {
+     text-align: center;
+ }
  
  .Articlepreview
  {
