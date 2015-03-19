@@ -336,8 +336,11 @@ transition: width 1s, height 0s;
  {  
     
     margin: 5%;
-    border: 1px solid black;
-    width: 90%;
+    
+    max-width: 90%;
+    padding: 25px;
+    margin-left: 32%;
+    
  }  
  #Articleintro h1
  {
@@ -353,11 +356,12 @@ transition: width 1s, height 0s;
      overflow: auto;
  }
  
- .Subpictures
+ .Subpictures ul li
  {
     border: 1px solid blue;
     min-width: 60%;
     min-height: 10%;
+    margin-bottom: 5%;
  }
  
  
