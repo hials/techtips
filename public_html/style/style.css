@@ -362,6 +362,7 @@ transition: width 1s, height 0s;
  .subpictures ul li img
  {
      box-shadow: 2px 2px black;
+     width: 90%;
  }
  
  .subpictures h4
