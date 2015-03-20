@@ -215,18 +215,15 @@ transition: width 1s, height 0s;
  
   #opennav img:hover
  {
-     border-radius:2em;
+      border-radius:2em;
       box-shadow: 0px 0px 20px #00ff00;
  }
  
   #closenav img
  {
-      
      border-radius:2em;
-      box-shadow: 0px 0px 20px #ff3333;
+     box-shadow: 0px 0px 20px #ff3333;
  }
- 
- 
  
  #closenav
  {
@@ -264,8 +261,6 @@ transition: width 1s, height 0s;
      margin:0;
      padding:0;
  }
- 
- 
  
  .previewone
  {
@@ -338,7 +333,7 @@ transition: width 1s, height 0s;
     margin: 5%;
     max-width: 90%;
     padding: 25px;
-     }  
+}  
  #articleintro h1
  {
      text-align: center;
@@ -371,6 +366,123 @@ transition: width 1s, height 0s;
  }
 
  
+ /*TEMP TEST FOR ARTICLE */
+ 
+ main article
+ {
+     
+     margin-left: 1em;
+     margin-right: 1em;
+ }
+ 
+ .articleheaderimg
+ {
+     width: 100%;
+ } 
+ 
+ main article h2
+ {
+     text-align: left;
+     padding:0;
+     margin-bottom: 0;
+ }
+  main article h4
+ {
+     text-align: left;
+     margin:0;
+     padding:0;
+ }
+ 
+ main article hr
+ {
+     margin:3.5em 0 0 0;
+     padding:0;
+ }
+ 
+ main article img
+ {
+     width:100%;
+ }
+ 
+ #sharebuttons
+ {
+    height: 1.6em;
+ }
+ 
+#sharebuttons .fb-share-button 
+{
+    float: left;
+}
+ 
+ #sharebuttons .twitter-share-button
+ {
+  float: left;
+  margin-top: 0.3em; 
+ }
+
+#sharebuttons #gplus
+ {
+float: left;
+margin-top: 0.3em;
+margin-left: 0.2em;
+ }
+ 
+ #articleinfo
+ {
+     margin-top: 1em;
+     width: 100%;
+
+ }
+ 
+ #articleinfo #author
+ {
+     width: 40%;
+
+     float: left;
+ }
+ #articleinfo #author img
+ {
+     height: 2.3em;
+     width: 2em;
+     float: left;
+     margin:0;
+     padding: 0;
+     margin-right: 0.5em;
+ }
+ 
+#articleinfo #author p
+ {
+     font-style: italic;
+     font-size: 0.8em;
+     
+     margin:0 0 0 1em;
+     
+     padding: 0;
+     
+ }
+ 
+ #articleinfo #publishdate
+ {
+     margin-top: 1.2em;
+    float: right;
+   
+ }
+ 
+  #articleinfo #publishdate p
+ {
+     
+     float: right;
+     font-style: italic;
+     font-size: 0.8em;
+     margin:0 0 0 0em;
+     padding:0;
+ }
+ 
+ .bigletter
+ {
+     font-size: 1.2em;
+     font-weight: bold;
+ }
  
  /* TEMP TEST FOR IMAGE PREVIEW*/
  
