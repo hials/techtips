@@ -436,6 +436,7 @@
     #sharebuttons .fb-share-button 
     {
         float: left;
+        z-index: 0;
     }
 
      #sharebuttons .twitter-share-button
@@ -478,9 +479,7 @@
      {
          font-style: italic;
          font-size: 0.8em;
-
          margin:0 0 0 1em;
-
          padding: 0;
 
      }
@@ -488,8 +487,7 @@
      #articleinfo #publishdate
      {
          margin-top: 1.2em;
-        float: right;
-
+         float: right;
      }
 
       #articleinfo #publishdate p
@@ -527,7 +525,6 @@
     display: block;
     height: 100%;
     width: 100%;
-    border: 1px solid red;
     z-index: 10;
 }
 
@@ -545,7 +542,6 @@
 {
     margin:0;
     padding:0;
-    border: 1px solid blue;;
     list-style: none;
     height: 20em;
     width: 50%;
