@@ -22,3 +22,15 @@
           f.style.display = 'none';
        
     }    
+    
+     function imagebig(image) {
+       var e = document.getElementById('overlay');
+       document.getElementById("imgoverlay").src=image;
+       e.style.display = 'block';
+       
+    }     
+     function closeimg() {
+       var e = document.getElementById('overlay'); 
+       e.style.display = 'none';
+       
+    }     
