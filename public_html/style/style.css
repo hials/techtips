@@ -560,9 +560,56 @@
     width: 100%;
 }
 
+#about
+{
+    overflow: hidden;
+    margin-bottom: 0.7em;
+}
 
+#about p
+{
+    font-size: 80%;
 
+}
+     
+#about img
+{
+    float: left;
+    width: 2em;
+}
 
+#about ul li
+{
+    margin-left: 2em;
+    float: left;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+#about ul
+{
+    float:left;
+    width: 49.5%;
+    list-style: none;
+}
+
+#about ul li p
+{
+    padding: 0;
+    margin: 0;
+    margin-left: 3.2em;
+}
+
+#about ul li p:first-of-type
+{
+    font-weight: bold;
+    
+}
+
+#about #leftabout li
+{
+    margin-left: 4em;
+}
 
      /*TEMP TEST SLUTT */
 
@@ -588,15 +635,12 @@
         clear: both;
     }   
 
-
-
-
      #topnav
      {
 
          z-index: -1;
      }
-
-
-
+     
      }
+     
+     
