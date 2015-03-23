@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> ac8741893ef5452620eed56bee1a352f24925358
 body
 {
     margin:0;
     padding:0;
+<<<<<<< HEAD
     background-color: #bababa;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
 }
@@ -117,10 +121,54 @@ footer
 {
     width: 40%;
     overflow: hidden;
+=======
+}
+
+#overlay
+{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-image:url("../image/tranback.png");
+    background-repeat: repeat;
+    display: none;
+
+}
+
+#overlay a
+{
+    position: fixed;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border: 1px solid red;
+    z-index: 10;
+}
+
+
+#bigimg
+{
+    position: fixed;
+    top: 20%;
+    height: 20em;
+    width: 100%;
+    overflow:hidden;
+}
+
+#bigimg ul
+{
+    margin:0;
+    padding:0;
+    border: 1px solid blue;;
+    list-style: none;
+    height: 20em;
+    width: 50%;
+>>>>>>> ac8741893ef5452620eed56bee1a352f24925358
     margin-left: auto;
     margin-right: auto;
 }
 
+<<<<<<< HEAD
 #centerfooter ul
 {
     float: left;
@@ -433,3 +481,43 @@ transition: width 1s, height 0s;
 
 
  }
+=======
+#bigimg ul li
+{
+    width: 100%;
+    overflow: hidden;
+    z-index: 20;
+}
+
+#bigimg ul li img
+{
+    width: 100%;
+    height: 20em;
+}
+
+
+
+
+#smallimg
+{
+    width: 100%;
+    height:20em;
+    
+    overflow: hidden;
+}
+
+#smallimg li
+{
+    width: 4em;
+    height: 4em;
+    overflow: hidden;
+    margin-right: 20em;
+    
+}
+
+#smallimg li img
+{
+    width: 4em;
+    height: 4em;
+}
+>>>>>>> ac8741893ef5452620eed56bee1a352f24925358
