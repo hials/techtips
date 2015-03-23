@@ -516,6 +516,7 @@
     background-image:url("../image/tranback.png");
     background-repeat: repeat;
     display: none;
+    z-index: 5;
 
 }
 
@@ -583,7 +584,7 @@
         width: 100%;
         border: 1px solid red;
         margin:0;
-        height: 800px;
+        min-height: 800px;
         clear: both;
     }   
 
