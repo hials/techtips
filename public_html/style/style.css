@@ -384,6 +384,10 @@
      {
          text-align: center;
      }
+     #lastpic ul li img
+     {
+         max-width: 10%;
+     }
 
      .articlepreview
      {
