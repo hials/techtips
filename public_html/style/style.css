@@ -131,7 +131,7 @@
     footer
     {
         width: 100%;
-
+        
         text-align: center;
         background-color: #1A1A1A;
         overflow:hidden;
@@ -139,7 +139,7 @@
 
     #centerfooter
     {
-        width: 40%;
+        width: 30%;
         overflow: hidden;
         margin-left: auto;
         margin-right: auto;
@@ -148,22 +148,44 @@
     #centerfooter ul
     {
         float: left;
-        margin-left: 10%;
+        margin-left: 15%;
         color:white;
     }
 
     #centerfooter li
     {
         margin-bottom: 0.2em;
-
+        font-size: 0.8em;
     }
+    
+    
 
-    .firstlist
+    #centerfooter .firstlist
     {
-        font-size: 1.2em;
+        font-size: 1em;
         color: #cccccc;
     }
 
+    #copyright
+    {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #copyright p 
+    {
+        font-size: 0.8em;
+        color: white;
+    }
+    
+    footer hr
+    {
+        background-color: #333333;
+        color: #333333;
+        border-color: #333333;
+    }
+    
+    
     #nav-wrapper
     {
         display:none;
