@@ -310,22 +310,20 @@
 
      .previewone
      {
-
          width: 100%;
          min-height: 20px;
-
          overflow: hidden;
-         margin-top: 1em;
-         margin-bottom: 1em;
+         margin: 0;
      }
-
-     .previewone ul
+    .previewone h2
      {
-
+            padding: 0;
+            margin: 0;
      }
+     
+     
       .previewone li
      {
-         padding: 7em 0;
           width: 100%;
           text-align: center;
     }
