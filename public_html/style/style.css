@@ -356,18 +356,19 @@
          margin-bottom: 1em;
          width: 100%;
          min-height: 20px;
-
          overflow: hidden;
+         
      }
 
-      .previewthree ul
+      .previewthree h4
      {
-
+         padding: 0;
+         margin: 0;
      }
       .previewthree li
      {
           float: left;
-          padding: 7em 0;
+          padding-top: 1em;
           width: 33%;
           text-align: center;
 
