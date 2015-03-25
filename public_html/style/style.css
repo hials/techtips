@@ -103,7 +103,7 @@ aside
 
 aside ul
 {
-    border: 1px solid red;
+    
     width: 80%;
     overflow: hidden;
     margin-left: auto;
@@ -112,7 +112,14 @@ aside ul
 
 aside li
 {
+    margin-bottom: 1em;
+}
 
+aside li p
+{
+    padding:0;
+    margin:0;
+    text-align: center;
 }
 
 aside li img
@@ -123,6 +130,10 @@ aside li img
     margin:0;
 }
 
+aside li a
+{
+    display:block;
+}
 
 
 
@@ -648,33 +659,33 @@ margin-left: 0.2em;
 }
 
 
-     @media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px){
 
-         body
-         {
-             background-color: red;
-         }
+body
+{
+    
+}
 
-         #center-top-wrapper
-        {
-        width: 100%;
-        }
+#center-top-wrapper
+{
+    width: 100%;
+}
 
-        #main-wrapper
-    {
-        width: 100%;
-        border: 1px solid red;
-        margin:0;
-        min-height: 800px;
-        clear: both;
-    }   
+#main-wrapper
+{
+   width: 100%;
 
-     #topnav
-     {
+   margin:0;
+   min-height: 800px;
+   clear: both;
+}   
 
-         z-index: -1;
-     }
-     
-     }
+#topnav
+{
+
+    z-index: -1;
+}
+
+}
      
      
