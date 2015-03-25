@@ -416,9 +416,6 @@
          margin-top: 10%;
      }
 
-
-     /*TEMP TEST FOR ARTICLE */
-
      main article
      {
 
@@ -533,9 +530,9 @@
          font-weight: bold;
      }
 
-     /* TEMP TEST FOR IMAGE PREVIEW*/
 
-     #overlay
+
+#overlay
 {
     position: fixed;
     height: 100%;
@@ -643,8 +640,6 @@
 {
     margin-left: 2em;
 }
-
-     /*TEMP TEST SLUTT */
 
 
      @media screen and (max-width: 1024px){
