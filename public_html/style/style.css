@@ -209,7 +209,7 @@ width: 0;
 color: white;
 height: 100%;
 
--webkit-transition: width 1s, height 4s; /* Safari */
+-webkit-transition: width 1s, height 0s; /* Safari */
 transition: width 1s, height 0s;
 
 }
@@ -538,7 +538,6 @@ margin-left: 0.2em;
      font-weight: bold;
  }
 
- /* TEMP TEST FOR IMAGE PREVIEW*/
 
  #overlay
 {
@@ -667,17 +666,67 @@ body
 #main-wrapper
 {
    width: 100%;
-
    margin:0;
-   min-height: 800px;
+   min-height: 0px;
    clear: both;
 }   
 
-#topnav
+main
 {
-
-    z-index: -1;
+    width: 100%;
 }
+
+
+aside
+{
+    border-top: 1px solid black;
+    clear:both;
+    width: 100%;
+    min-height: 0;
+    
+}
+
+aside ul
+{
+    width: 100%;
+}
+
+
+aside li
+{
+    float:left;
+    width:25%;
+    margin-left: 2em;
+}
+
+
+
+aside li img
+{
+    
+    height: 8em;
+    padding:0;
+    margin:0;
+}
+
+   
+aside ul
+{
+    margin-top: 1.5em;
+    width: 100%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside li
+{
+    margin-bottom: 1em;
+}
+
+
+
+
 
 }
      
