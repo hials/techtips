@@ -6,9 +6,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <link rel="stylesheet" type="text/css" href="style/style.css">
          <script src="mobilenavigation.js"></script>
-        
+         <script src="https://apis.google.com/js/platform.js" async defer></script>
+         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+         
     </head>
     <body>
+        <div id="overlay" onclick='closeimg();'>>
+            
+            <div id=bigimg>
+                <ul>
+                    <li>
+                        <img id="imgoverlay" src="image/battery-percentage.jpg" alt="big image of per">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/nb_NO/sdk.js#xfbml=1&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>    
+        
+        
         <div id="top-wrapper">
             <div id="center-top-wrapper">
                 <header>
@@ -35,37 +58,45 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="batteryusage.html">iOS</a></li>
-                    <li><a href="gmail-undo.html">Android</a></li>
-                    <li><a href="mackeys.html">Mac OSX</a></li>
-                    <li><a href="shake-it-off.html">Windows</a></li>
-                    <li><a href="authenticator.html">Generic</a></li>
+                    <li><a href="artikkelside.html">Article 1</a></li>
+                    <li><a href="gmail-undo.html">Gmail undo</a></li>
+                    <li><a href="index.html">Example 3</a></li>
+                    <li><a href="index.html">Example 4</a></li>
+                    <li><a href="index.html">Example 5</a></li>
+                    <li><a href="index.html">Example 6</a></li>
                     <li><a href="about.html"> About Us</a></li>
                 </ul>
             </nav>    
         </div>
     
+       
+    
             <div id="main-wrapper">
                 <main>
-                    <div id="articleintro">
-                    <div id="articlepictures">
-                            <img src="image/gmailangre/gmaillogo.png" alt="Article pic"
-                                 width="150" >
-                   
-                            </div>
-
-                    <h1>Want to cancel an email?</h1>
-                    <h2>Gmail labs now have a smart solution for you!
-                    </h2>
-                    </div>
-                    
-                    
-                    <article class="articlepreview"> 
+                    <article>
+                        <h2>Want to cancel an email? </h2>
+                        <img class="articleheaderimg" src="image/gmailangre/gmaillogo.png" alt="Article pic"
+                                 width="150">
+                        <h4>Gmail labs now have a smart solution for you!</h4>
+                        <div id="sharebuttons">
+                            <div  class="fb-share-button" data-href="http://techtips.enesje.com/gmail-undo_test.html" data-layout="button_count"></div>
+                            <div id="gplus"><div class="g-plus" data-action="share" data-annotation="bubble"></div></div>
+                            <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+                        </div>
+                        <div id="articleinfo">
+                                <div id="author">
+                                    <img src="image/people/fredrik.jpg" alt="picture of the author">
+                                    <p>Fredrik Habostad</p>
+                                    <p>techtipsno@gmail.com</p>
+                                </div>
+                                <div id="publishdate">
+                                    <p> Published 20.03.2015 at 12:41</p>
+                                </div>
+                        </div>
                         
+                        <hr>
                         
-                        
-                        
-                        <div class="subpictures">
+                        <p> <span class="bigletter"></span><div class="subpictures">
                         <ul>
                             
                             <li>
@@ -135,47 +166,47 @@
                         </ul>
                         </div>
                     </article>  
-                               
-                    
-                </main>
-                <aside>
+                    </article>
+            </main>
+                
+                
+            <aside>
                 <ul>
-                    <li>
-                        <img src="image/copyfree.gif" alt="Article pic"
-                                 width="100">                   
-                    </li>
-                    <li>
-                        Example 3
-                    </li>
-                    <li>
-                        <img src="image/copyfree.gif" alt="Article pic"
-                                 width="100">
-                    </li>
-                    <li>
-                        Example 5
-                    </li>
-                    <li>
-                        <img src="image/copyfree.gif" alt="Article pic"
-                                 width="100">
-                    </li>
-                    <li>
-                        Example 7
-                    </li>
-                    <li>
-                        <img src="image/copyfree.gif" alt="Article pic"
-                                 width="100">
-                    </li>
-                    <li>
-                        Example 6
-                    </li>
-                    <li>
-                        <img src="image/copyfree.gif" alt="Article pic"
-                                 width="100">
-                    </li>
-                    <li>
-                        Example 6
+                    <li> 
+                        <a href="">
+                            <img src="image/ios_battery.jpg" alt="preview of iphone battery article">
+                            <p>Extend battery life</p>
+                        </a>
                     </li>
                     
+                    <li> 
+                        <a href="">
+                            <img src="image/ios_battery.jpg" alt="preview of iphone battery article">
+                            <p>Extend battery life</p>
+                        </a>
+                    </li>
+                    
+                    <li> 
+                        <a href="">
+                            <img src="image/ios_battery.jpg" alt="preview of iphone battery article">
+                            <p>Extend battery life</p>
+                        </a>
+                    </li>
+                    
+                    <li> 
+                        <a href="">
+                            <img src="image/ios_battery.jpg" alt="preview of iphone battery article">
+                            <p>Extend battery life</p>
+                        </a>
+                    </li>
+                    
+                    <li> 
+                        <a href="">
+                            <img src="image/ios_battery.jpg" alt="preview of iphone battery article">
+                            <p>Extend battery life</p>
+                        </a>
+                    </li>
+
                 </ul>
             </aside> 
             </div>
@@ -185,32 +216,41 @@
                 <ul>
                     <li class="firstlist">Sitemap</li>
                     <li>Windows</li>
-                    <li>Mac</li>
+                    <li>OSX</li>
                     <li>IOS</li>
                     <li>Android</li>
                     <li>Generic</li>
                 </ul>
                 
                 <ul>
-                    <li class="firstlist">Legal</li>
-                    <li><a href="legal.html">Privacy</a></li>
-                    <li><a href="legal.html">Cookies</a></li>
-                    <li><a href="legal.html">Disclaimer</a></li>
+                    <li class="firstlist">Example 1</li>
+                    <li>Example 1</li>
+                    <li>Example 1</li>
+                    <li>Example 1</li>
                 </ul>
                 
                 <ul>
-                    <li class="firstlist">TechTips</li>
+                    <li class="firstlist">Example 1</li>
+                    <li>Example 1</li>
+                    <li>Example 1</li>
+                    <li>Example 1</li>
+                    <li>Example 1</li>
+                    <li>Example 1</li>
+                </ul>
+                 
+                <ul>
+                    <li class="firstlist">Example 1</li>
                     <li>Example 1</li>
                     <li>Example 1</li>
                 </ul>
                 
             </div>
-            <hr>
-            <div id="copyright">
-                <p>TechTips - Copyright 2015 - Hosted by enesje.com </p>
-            </div>
             
         </footer>
-        
+
     </body>
 </html>
+
+    
+          
+   
