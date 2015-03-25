@@ -458,6 +458,13 @@ transition: width 1s, height 0s;
      height:30em;
  }
  
+ main article video
+ {
+     width: 100%;
+     height: 20em;
+     
+     
+ }
  
  #sharebuttons
  {
