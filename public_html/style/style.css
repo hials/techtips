@@ -124,11 +124,7 @@
     }
     
     
-    
-    
-    
-
-<<<<<<< HEAD
+   
 aside ul
 {
     
@@ -149,7 +145,7 @@ aside li p
     margin:0;
     text-align: center;
 }
-=======
+
     footer
     {
         width: 100%;
@@ -173,7 +169,6 @@ aside li p
         margin-left: 15%;
         color:white;
     }
->>>>>>> origin/master
 
     #centerfooter li
     {
@@ -183,18 +178,17 @@ aside li p
     
     
 
-<<<<<<< HEAD
+
 aside li a
 {
     display:block;
 }
-=======
+
     #centerfooter .firstlist
     {
         font-size: 1em;
         color: #cccccc;
     }
->>>>>>> origin/master
 
     #copyright
     {
