@@ -452,6 +452,13 @@ transition: width 1s, height 0s;
      width:100%;
  }
 
+ main article iframe
+ {
+     width:100%; 
+     height:30em;
+ }
+ 
+ 
  #sharebuttons
  {
     height: 1.6em;
