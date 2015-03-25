@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Articlesite</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" type="text/css" href="style/style.css">
+         <script src="mobilenavigation.js"></script>
+         <script src="https://apis.google.com/js/platform.js" async defer></script>
+         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+         
+    </head>
+    <body>
+        <div id="overlay" onclick='closeimg();'>>
+            
+            <div id=bigimg>
+                <ul>
+                    <li>
+                        <img id="imgoverlay" src="image/battery-percentage.jpg" alt="big image of per">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/nb_NO/sdk.js#xfbml=1&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>    
+        
+        
+        <div id="top-wrapper">
+            <div id="center-top-wrapper">
+                <header>
+                    <a href="index.html" ></a>
+                </header>
+                  <div id="navbutton">
+                        <span id="opennav">
+                            <a href="#navigation" onclick="toggle_visibilitydual('opennav','closenav');">
+                                <img src="image/menu.png" alt="menu button, opens navigation side bar">
+                            </a>
+                        </span>
+                        <span id="closenav">
+                               <a href="#" onclick="toggle_visibilitydual('closenav','opennav');">
+                                    <img src="image/menuclose.png" alt="menu button, closes navigation side bar">
+                               </a>
+                        </span>
+                    </div>
+            </div>
+        </div>    
+        <div id="navigation">
+            <div id="topnav">
+                
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="artikkelside.html">Article 1</a></li>
+                    <li><a href="gmail-undo.html">Gmail undo</a></li>
+                    <li><a href="shake-it-off.html">Shake it off</a></li>
+                    <li><a href="index.html">Example 4</a></li>
+                    <li><a href="index.html">Example 5</a></li>
+                    <li><a href="index.html">Example 6</a></li>
+                    <li><a href="about.html"> About Us</a></li>
+                </ul>
+            </nav>    
+        </div>
+    
+       
+    
+            <div id="main-wrapper">
+                <main>
+                    <article>
+                        <h2>How to clear your screen </h2>
+                        <img class="articleheaderimg" src="image/førstebildeshake.png" alt="header picture of a Iphone">
+                        <h4> Have more control over your work.</h4>
+                        <div id="sharebuttons">
+                            <div  class="fb-share-button" data-href="http://techtips.enesje.com/gmail-undo_test.html" data-layout="button_count"></div>
+                            <div id="gplus"><div class="g-plus" data-action="share" data-annotation="bubble"></div></div>
+                            <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+                        </div>
+                        <div id="articleinfo">
+                                <div id="author">
+                                    <img src="image/people/sondre.jpg" alt="picture of the author">
+                                    <p>Sondre Fjærtoft</p>
+                                    <p>Sondre@fjærtoft.com</p>
+                                </div>
+                                <div id="publishdate">
+                                    <p> Published 25.03.2015 at 10:41</p>
+                                </div>
+                        </div>
+                        
+                        <hr>
+                        
+                        <p> <span class="bigletter">D</span>o you have a lot of windows open at the same time? Do you only need one? Here is a simple trick to help you solve that problem. Click the top of your window, hold down the mouse and drag it from side to side with alittle speed. Every other window but the one you are dragging is now minimized .</p>
+                        <p></p>
+                        
+                        <img onclick='imagebig("image/førstebildeshake.png");'  src="image/førstebildeshake.png" alt="iphone battery trick" >
+                        <p>But fear not, if you need your other windows back up, simply do the same once more.</p>
+                       
+                        <img  onclick='imagebig("image/andrebildeshake.jpg");' src="image/andrebildeshake.jpg" alt="iphone battery trick" > 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus nisl sed sapien ornare, eget interdum augue pretium. Sed suscipit tortor in quam vehicula.</p>
+                    </article>
+                </main>
+                <aside>
+                <ul>
+                    <li> 
+                        <img src="image/ios_battery.jpg" alt="preview of iphone battery article">
+                        <p>Extend battery life</p>
+                        
+                    </li>
+                    
+                    
+                    
+                    <li> </li>
+                    <li> </li>
+                    <li> </li>
+                    <li> </li>
+                    <li> </li>
+                </ul>
+            </aside> 
+            </div>
+            
+        <footer>
+            <div id="centerfooter">
+                <ul>
+                    <li class="firstlist">Sitemap</li>
+                    <li>Windows</li>
+                    <li>OSX</li>
+                    <li>IOS</li>
+                    <li>Android</li>
+                    <li>Generic</li>
+                </ul>
+                
+                <ul>
+                    <li class="firstlist">Example 1</li>
+                    <li>Example 1</li>
+                    <li>Example 1</li>
+                    <li>Example 1</li>
+                </ul>
+                
+                <ul>
+                    <li class="firstlist">Example 1</li>
+                    <li>Example 1</li>
+                    <li>Example 1</li>
+                    <li>Example 1</li>
+                    <li>Example 1</li>
+                    <li>Example 1</li>
+                </ul>
+                 
+                <ul>
+                    <li class="firstlist">Example 1</li>
+                    <li>Example 1</li>
+                    <li>Example 1</li>
+                </ul>
+                
+            </div>
+            
+        </footer>
+
+    </body>
+</html>
