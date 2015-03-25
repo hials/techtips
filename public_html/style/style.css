@@ -421,9 +421,6 @@ transition: width 1s, height 0s;
      margin-top: 10%;
  }
 
-
- /*TEMP TEST FOR ARTICLE */
-
  main article
  {
 
@@ -434,6 +431,7 @@ transition: width 1s, height 0s;
  .articleheaderimg
  {
      width: 100%;
+     height: 25em;
  } 
 
  main article h2
@@ -458,6 +456,13 @@ transition: width 1s, height 0s;
  main article img
  {
      width:100%;
+ }
+ 
+ main article video
+ {
+     width: 100%;
+     height: 20em;
+     
  }
 
  #sharebuttons
