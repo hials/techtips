@@ -736,6 +736,7 @@ aside li
     float:left;
     width:25%;
     margin-left: 2em;
+    margin-bottom: 1em;
 }
 
 
@@ -758,10 +759,6 @@ aside ul
     margin-right: auto;
 }
 
-aside li
-{
-    margin-bottom: 1em;
-}
 
 
 #centerfooter
@@ -790,11 +787,28 @@ aside li
     display: block;
 }
 
-#closemobile
+#closemobile 
 {
-    width: 5%;
+    display: block;
+    width: 100%;
+    overflow:hidden;
+    text-align: center;
+}
+
+#closemobile a
+{
+    display: block;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    overflow:hidden;
+    text-align: center;
+}
+
+
+#closemobile p
+{
+    padding-top: 1em;
 }
 
  #navigation:target
@@ -817,7 +831,13 @@ aside li
  {
      width: 90%;
      height: 5em;
- }  
+ }
+ 
+  .articleheaderimg
+ {
+     width: 100%;
+     height: 15em;
+ } 
  
  
  
@@ -861,9 +881,44 @@ main article hr
 #closemobile 
 {
     display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:hidden;
+    text-align: center;
 }
 
+ main .previewone img
+ {
+     width: 90%;
+     height: 10em;
+ }
 
+  main .previewtwo img
+ {
+     width: 90%;
+     height: 5em;
+ }
+ main .previewthree img
+ {
+     width: 90%;
+     height: 2.5em;
+ }
+ 
+  .articleheaderimg
+ {
+     width: 100%;
+     height: 10em;
+ } 
 
+ aside li
+{
+    float:left;
+    width:25%;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+ 
+ 
     
 }
