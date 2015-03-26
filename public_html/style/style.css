@@ -686,8 +686,18 @@ z-index: 5;
     display: none;
 }
      
+#contact
+{
+    width: 100%;
+    overflow: hidden;
+}
 
-
+#contact #contact-message
+{
+    width: 90%;
+    overflow:hidden;
+    border: 1px solid red;
+}
      
 
 
