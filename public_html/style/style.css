@@ -143,7 +143,7 @@ footer
 
 #centerfooter
 {
-    width: 30%;
+    width: 35%;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
@@ -322,6 +322,13 @@ transition: width 1s, height 0s;
      overflow: hidden;
      margin: 0;
  }
+ 
+main .previewone img
+{
+    width: 100%;
+    height: 25em;
+}
+ 
 .previewone h2
  {
         padding: 0;
@@ -341,6 +348,12 @@ transition: width 1s, height 0s;
      min-height: 20px;
      overflow: hidden;
      margin-bottom: 1em;
+ }
+ 
+ main .previewtwo img
+ {
+     width: 90%;
+     height: 15em;
  }
 
   .previewtwo h3
@@ -366,6 +379,13 @@ transition: width 1s, height 0s;
 
  }
 
+ main .previewthree img 
+ {
+     width: 80%;
+     height: 15em;
+ }
+ 
+ 
   .previewthree h4
  {
      padding: 0;
@@ -730,9 +750,77 @@ aside li
 }
 
 
+#centerfooter
+{
+    width: 80%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#centerfooter ul
+{
+    float: left;
+    margin-left: 15%;
+    color:white;
+}
+
+#centerfooter li
+{
+    margin-bottom: 0.2em;
+    font-size: 0.8em;
+}
 
 
 
 }
      
-     
+@media screen and (max-width: 768px){     
+ 
+header
+{
+    background-size: 12em 7em;
+    width: 12em;
+}
+
+#centerfooter
+{
+width: 100%;
+overflow: hidden;
+margin-left: auto;
+margin-right: auto;
+}
+#centerfooter ul
+{
+float: left;
+margin-left: 10%;
+color:white;
+}
+ 
+#navigation {
+position: fixed;
+right:0;
+top:0;
+
+background-color: #1A1A1A;
+width: 0;
+color: white;
+height: 100%;
+
+-webkit-transition: width 1s, height 0s; /* Safari */
+transition: width 1s, height 0s;
+
+}
+
+
+ #navigation:target
+ {
+     width: 100%;
+ }
+
+
+
+
+
+    
+}
