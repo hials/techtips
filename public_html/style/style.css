@@ -708,10 +708,12 @@ z-index: 5;
 {
     width: 90%;
     overflow:hidden;
-    border: 1px solid red;
 }
      
-
+#contactlink
+{
+    color: blue;
+}
 
 @media screen and (max-width: 1024px){
 
