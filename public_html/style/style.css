@@ -930,5 +930,38 @@ main article hr
      padding: 0;
 
  }
+ 
+ #about
+{
+   
+    margin-left: 0em;
     
+}
+
+ #about ul
+{
+   
+    margin-left: 0em;
+}
+
+
+#about #leftabout li
+{
+margin-left: 0em;
+}
+
+#about #leftabout li img
+{
+margin-left: 0em;
+}
+
+
+#about #rightabout li
+{
+margin-left: 0em;
+}
+
+
+
+
 }
