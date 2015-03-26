@@ -90,6 +90,11 @@ main
     border-right: 1px solid black;
 }
 
+#main-wrapper main article
+{
+    min-height: 850px;
+}
+
 aside
 {
     width: 24%;
