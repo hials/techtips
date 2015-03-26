@@ -702,6 +702,13 @@ body
    clear: both;
 }   
 
+ main article hr
+ {
+     margin:4em 0 0 0;
+     padding:0;
+ }
+
+
 main
 {
     width: 100%;
@@ -784,7 +791,7 @@ aside li
 
 #closemobile
 {
-    width: 10%;
+    width: 5%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -820,6 +827,11 @@ margin-left: 10%;
 color:white;
 }
 
+main article hr
+ {
+     margin:4em 0 0 0;
+     padding:0;
+ }
 
 
  #navigation:target
