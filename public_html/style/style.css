@@ -137,6 +137,18 @@ aside li a
     display:block;
 }
 
+                            
+#asidesub 
+{
+    display: block;
+}
+
+
+#asidesub li h3
+{
+    text-align: center;
+}
+
 footer
 {
     width: 100%;
@@ -742,6 +754,10 @@ aside
     min-height: 0;
     
 }
+#asidesub 
+{
+    display: none;
+}
 
 aside ul
 {
@@ -935,6 +951,10 @@ main article hr
     width:25%;
     margin-left: 1em;
     margin-bottom: 1em;
+}
+#asidesub 
+{
+    display: none;
 }
  
 #articleinfo #author p
