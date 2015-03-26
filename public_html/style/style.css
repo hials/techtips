@@ -162,7 +162,10 @@ footer
     font-size: 0.8em;
 }
 
-
+#centerfooter li a:hover
+{
+    text-decoration: underline;
+}
 
 
 
