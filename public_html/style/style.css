@@ -340,13 +340,14 @@ transition: width 1s, height 0s;
      width: 100%;
      min-height: 20px;
      overflow: hidden;
-     margin: 0;
+    
  }
  
 main .previewone img
 {
-    width: 100%;
+    width: 90%;
     height: 25em;
+    margin-top: 1em;
 }
  
 .previewone h2
@@ -856,6 +857,8 @@ aside ul
  {
      width: 90%;
      height: 15em;
+   
+     
  }
 
   main .previewtwo img
