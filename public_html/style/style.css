@@ -673,7 +673,13 @@ z-index: 5;
     margin-left: 2em;
 }
 
-     /*TEMP TEST SLUTT */
+#closemobile 
+{
+    display: none;
+}
+     
+     
+     
 
 
 @media screen and (max-width: 1024px){
@@ -771,6 +777,23 @@ aside li
     font-size: 0.8em;
 }
 
+#closemobile 
+{
+    display: block;
+}
+
+#closemobile
+{
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ #navigation:target
+ {
+     width: 100%;
+ }
+
 
 
 }
@@ -796,21 +819,7 @@ float: left;
 margin-left: 10%;
 color:white;
 }
- 
-#navigation {
-position: fixed;
-right:0;
-top:0;
 
-background-color: #1A1A1A;
-width: 0;
-color: white;
-height: 100%;
-
--webkit-transition: width 1s, height 0s; /* Safari */
-transition: width 1s, height 0s;
-
-}
 
 
  #navigation:target
@@ -818,7 +827,10 @@ transition: width 1s, height 0s;
      width: 100%;
  }
 
-
+#closemobile 
+{
+    display: block;
+}
 
 
 
