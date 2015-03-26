@@ -725,17 +725,12 @@ aside
     
 }
 
-aside ul
-{
-    width: 100%;
-}
-
-
 aside li
 {
     float:left;
     width:25%;
     margin-left: 2em;
+
 }
 
 
@@ -748,6 +743,10 @@ aside li img
     margin:0;
 }
 
+aside li a
+{
+    margin-top: 5em;
+}
    
 aside ul
 {
@@ -758,10 +757,7 @@ aside ul
     margin-right: auto;
 }
 
-aside li
-{
-    margin-bottom: 1em;
-}
+
 
 
 #centerfooter
