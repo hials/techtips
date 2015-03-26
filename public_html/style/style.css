@@ -117,7 +117,7 @@ aside ul
 
 aside li
 {
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 aside li p
@@ -919,6 +919,13 @@ main article hr
     margin-bottom: 1em;
 }
  
- 
+#articleinfo #author p
+ {
+     font-style: italic;
+     font-size: 0.7em;
+     margin:0 0 0 1em;
+     padding: 0;
+
+ }
     
 }
